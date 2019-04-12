@@ -14,7 +14,7 @@ $params = array(
   'openid' => 'hFXkZSdnrEj7QuN8xDYg9G',
   '_signature' => 'wRfPt61g6fxrk13aoZL3gvMuW6lnncjFNlg9RDA0ftCYh1edBvoqE6slQYaqruijT/zqaDhywz9zVt636TcjN96NJLIfoFSsEU/5udbnYnfbeCNrzJzfz7KOZDaY7HmEAuq2hybqjGO4wiuCakeiENsYUbCP6ySQpTZvQcs+Iec=',
 );
-
+// 开发者默认接收 post 请求参数
 // $params = $_POST;
 
 $_signature = $params['_signature'];
