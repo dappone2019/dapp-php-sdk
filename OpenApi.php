@@ -45,7 +45,7 @@ class OpenApi
     return $this->urlCall($uri, $data);
   }
 
-  
+
 
   protected function urlCall($uri, $postdata)
   {
@@ -63,6 +63,7 @@ class OpenApi
         $post_array[] = urlencode($key) . "=" . urlencode($value);
     }
 
+    $method = 'POST';
     $post_string = implode("&", $post_array);
 
     $ch = curl_init();
